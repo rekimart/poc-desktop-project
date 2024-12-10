@@ -1,9 +1,9 @@
 {
-  "name": "electron-vite-react",
-  "version": "2.2.0",
+  "name": "poc-desktop-project",
+  "version": "0.0.1",
   "main": "dist-electron/main/index.js",
   "description": "Electron Vite React boilerplate.",
-  "author": "草鞋没号 <308487730@qq.com>",
+  "author": "Rekimart <support@rekimart.com>",
   "license": "MIT",
   "private": true,
   "debug": {
@@ -20,7 +20,10 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "electron-updater": "^6.3.9"
+    "@tailus/themer": "^0.1.8",
+    "electron-updater": "^6.3.9",
+    "lucide-react": "^0.468.0",
+    "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.2",
