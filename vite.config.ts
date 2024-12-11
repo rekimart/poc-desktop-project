@@ -16,7 +16,10 @@ export default defineConfig(({ command }) => {
   return {
     resolve: {
       alias: {
-        '@': path.join(__dirname, 'src')
+        '@': path.join(__dirname, 'src'),
+        '@components': path.join(__dirname, 'src/components'),
+        "@tailus-ui": path.join(__dirname, 'src/components/tailus-ui'),
+        "@lib": path.join(__dirname, 'src/lib')
       },
     },
     plugins: [

@@ -10,7 +10,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -20,8 +20,6 @@
       "@/*": [
         "src/*",
       ],
-      "@tailus-ui/*": ["src/components/tailus-ui/*"],
-      "@lib/*": ["src/lib/*"],
     },
   },
   "include": ["src", "electron"],
